@@ -1,0 +1,15 @@
+.ant-segmented-item {
+ 
+    transition: rgb(249 115 22 / 1) 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+
+.ant-segmented-item-selected {
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 115 22 / var(--tw-bg-opacity)) !important; /* Selected background color */
+    color: white !important; /* Selected text color */
+}
+
+.ant-segmented-thumb {
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 115 22 / var(--tw-bg-opacity)) !important; /* Thumb color */
+}

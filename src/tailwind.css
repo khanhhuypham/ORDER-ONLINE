@@ -1,0 +1,24 @@
+/* Animate css */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    html {
+        @apply scroll-smooth;
+    }
+
+    /* Form */
+    .form-input,
+    .form-textarea,
+    .form-select,
+    .form-multiselect {
+        @apply w-full rounded-md border border-white-light bg-white px-4 py-2 text-[16px] font-normal focus:outline-none focus:border-primary focus:ring-transparent dark:border-[#17263c] dark:bg-[#121e32] dark:text-white-dark dark:focus:border-primary;
+    }
+
+
+
+ 
+}

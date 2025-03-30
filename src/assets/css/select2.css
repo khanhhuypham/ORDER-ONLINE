@@ -1,0 +1,102 @@
+.custom-select .css-1dimb5e-singleValue,
+.custom-select .css-166bipr-Input,
+.custom-select .css-qbdosj-Input {
+    @apply dark:text-white-dark text-[#7D7E81] text-lg;
+}
+
+.custom-select .css-1fdsijx-ValueContainer {
+    @apply !pl-4;
+}
+
+.custom-select .css-b62m3t-container>div {
+    background-color: white;
+    border-color: rgb(224, 230, 237);
+}
+
+.custom-select .css-b62m3t-container>div.dark {
+    background-color: #1b2e4b;
+    border-color: #253b5c;
+}
+
+.custom-select .css-b62m3t-container>div:hover {
+    border-color: inherit;
+}
+
+.custom-select .css-b62m3t-container>div:first-of-type {
+    @apply shadow-none;
+}
+
+.custom-select .css-1nmdiq5-menu>div>div {
+    background-color: transparent;
+}
+
+.custom-select .css-1nmdiq5-menu>div>div:hover {
+    background-color: #f6f6f6;
+}
+
+.custom-select .css-1nmdiq5-menu>div>div.dark:hover {
+    background-color: #132136;
+}
+
+
+.custom-select .css-1nmdiq5-menu>div>div[aria-disabled='true'] {
+    @apply !bg-transparent !text-[#999];
+}
+
+.custom-select .css-1nmdiq5-menu>div>.css-tr4s17-option {
+    background-color: #f6f6f6;
+    color: black;
+}
+
+.custom-select .css-1nmdiq5-menu>div>.css-tr4s17-option.dark {
+    background-color: #132136;
+    color: var(--color-white-dark);
+    /* Sử dụng giá trị cụ thể của text-white-dark */
+}
+
+
+.custom-select .css-1xc3v61-indicatorContainer {
+    @apply dark:text-white-dark text-[#999];
+}
+
+.custom-select .css-1u9des2-indicatorSeparator {
+    @apply hidden;
+}
+
+.custom-select .css-1p3m7a8-multiValue {
+    @apply !bg-success !text-white;
+}
+
+.custom-select .css-wsp0cs-MultiValueGeneric {
+    @apply !text-white;
+}
+
+.css-1nmdiq5-menu {
+     z-index: 999 !important;
+}
+
+.css-t3ipsp-control {
+    @apply dark:bg-[#132136];
+}
+
+.css-13cymwt-control {
+    @apply dark:bg-[#132136];
+}
+
+.css-1nmdiq5-menu {
+    @apply dark:bg-[#132136];
+}
+
+.css-1dimb5e-singleValue {
+    color: #7D7E81 !important;
+}
+
+.css-10wo9uf-option {
+    font-size: 14px !important;
+    color: #7D7E81 !important;
+}
+
+.css-10wo9uf-option:hover {
+    color: #7D7E81 !important;
+}
+
